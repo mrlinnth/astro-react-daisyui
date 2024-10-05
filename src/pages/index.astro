@@ -6,7 +6,8 @@ import Comments from '../components/Comments';
 <Layout title="Welcome to Astro.">
 	<main>
 		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<Comments />
+		<button class="btn btn-primary">Button</button>
+		<Comments client:only="react" />
 	</main>
 </Layout>
 
